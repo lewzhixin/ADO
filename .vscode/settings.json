@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "Abril",
+            "account": "WXPBTME-QP88919",
+            "username": "Abrillew",
+            "password": "09J283332g05",
+            "database": "RAW",
+            "warehouse": "TRANSFORM"
+        }
+    ],
+    "dbt.queryLimit": 500
+}
